@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_map"
+        android:title="Rides"
+        android:icon="@drawable/map_vec"
+        app:cnb_backgroundColor="#FFAB00"/>
+
+    <item
+        android:id="@+id/bottom_nav_loc"
+        android:title="Location"
+        android:icon="@drawable/loc_vec"
+        app:cnb_backgroundColor="#FFAB00"/>
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_vec"
+        app:cnb_backgroundColor="#FFAB00"/>
+
+</menu>
